@@ -1,0 +1,82 @@
+[
+  {
+    "categories": [
+      "business",
+      "career"
+    ],
+    "author_id": "b7adaaac-aaa9-435e-abd7-ba3456ea65d8",
+    "summary": "Learn how to stand out as a junior employee in a competitive market.",
+    "content": "This is the full content of the post. It can be quite long and detailed, covering tips for career growth.",
+    "title": "How to Shine as a Junior in a Competitive Workplace",
+    "slug": "how-to-shine-as-junior-in-competitive-workplace",
+    "created_at": "2025-09-26T16:35:00.000Z",
+    "views": 42,
+    "likes": 15,
+    "liked_by": [],
+    "status": "published"
+  },
+  {
+    "categories": [
+      "career",
+      "education"
+    ],
+    "author_id": "b7adaaac-aaa9-435e-abd7-ba3456ea65d8",
+    "summary": "Tips for building a strong resume as a recent graduate.",
+    "content": "This is the full content of the post. It includes resume-building strategies and examples.",
+    "title": "Crafting a Winning Resume as a New Graduate",
+    "slug": "crafting-winning-resume-new-graduate",
+    "created_at": "2025-09-26T16:36:10.000Z",
+    "views": 19,
+    "likes": 8,
+    "liked_by": [],
+    "status": "draft"
+  },
+  {
+    "categories": [
+      "business",
+      "tech"
+    ],
+    "author_id": "b7adaaac-aaa9-435e-abd7-ba3456ea65d8",
+    "summary": "Why tech startups value junior talent and how to get hired.",
+    "content": "This is the full content of the post. It explores startup hiring trends and tips for juniors.",
+    "title": "Why Tech Startups Love Junior Talent",
+    "slug": "why-tech-startups-love-junior-talent",
+    "created_at": "2025-09-26T16:37:20.000Z",
+    "views": 67,
+    "likes": 22,
+    "liked_by": [],
+    "status": "published"
+  },
+  {
+    "categories": [
+      "career",
+      "business"
+    ],
+    "author_id": "b7adaaac-aaa9-435e-abd7-ba3456ea65d8",
+    "summary": "Mastering the art of networking for career beginners.",
+    "content": "This is the full content of the post. It details networking strategies for early-career professionals.",
+    "title": "Networking 101: A Guide for Career Starters",
+    "slug": "networking-101-guide-for-career-starters",
+    "created_at": "2025-09-26T16:38:30.000Z",
+    "views": 33,
+    "likes": 12,
+    "liked_by": [],
+    "status": "draft"
+  },
+  {
+    "categories": [
+      "tech",
+      "education"
+    ],
+    "author_id": "b7adaaac-aaa9-435e-abd7-ba3456ea65d8",
+    "summary": "How to learn coding skills to land your first tech job.",
+    "content": "This is the full content of the post. It provides a roadmap for learning coding and job hunting.",
+    "title": "From Novice to Coder: Landing Your First Tech Job",
+    "slug": "from-novice-to-coder-landing-first-tech-job",
+    "created_at": "2025-09-26T16:39:40.000Z",
+    "views": 88,
+    "likes": 30,
+    "liked_by": [],
+    "status": "published"
+  }
+]

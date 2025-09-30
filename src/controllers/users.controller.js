@@ -64,9 +64,7 @@ export const usersController = {
 
       users.splice(userIndex, 1)
       await db.write(userfile, users)
-
-      res.status(204).send()
-
+      res.status(200).send(`User is successfully deleted!`)
     } catch (error) {
       next(error)
     }

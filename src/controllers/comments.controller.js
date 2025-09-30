@@ -11,7 +11,6 @@ example comment
 */
 import { commentfile, db } from "../helpers/index.js"
 import { v4 as uuidv4 } from 'uuid'
-import { commentfile } from "../helpers/index.js"
 import { userfile } from "../helpers/index.js"
 import {postfile} from "../helpers/index.js"
 
@@ -92,7 +91,7 @@ export const commentsController = {
       const paginatedComments = comments.slice(startIndex, endIndex)
 
       res.send({
-        users: paginatedComments,
+        comments: paginatedComments,
         total: comments.length,
         page,
         limit

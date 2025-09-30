@@ -11,9 +11,11 @@ MiddleWare.use((req, res, next) => {
         url: req.url
     })
     next()
-    if (!url.startsWith("/users" || !url.startsWith("/posts" || !url.startsWith("/comments")))) {
-        res.status(404).json({ message: "Not Found such a url" })
-    }
-
+    // if (url.startsWith("http://localhost:3000/users" || url.startsWith("http://localhost:3000/posts" || url.startsWith("http://localhost:3000/comments")))) {
+    //    next()
+    // }
+    // else{
+    //      res.status(404).json({ message: "Not Found such a url" })
+    // }
 })
 export default MiddleWare

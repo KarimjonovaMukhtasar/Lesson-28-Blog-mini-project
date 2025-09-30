@@ -87,6 +87,8 @@ export const postsController = {
         res.status(404).json({message: "Not Found such an id of post, check the spelling!"})
       } 
       const updatedPost = {...posts[postIndex], ...req.body}
+      posts.splice(posts[postIndex])
+      posts.push(updatedPost)
       await db.write(postfile, posts)
       res.status(200).json({message: "POST UPDATED SUCCESSFULLY!"})
 
@@ -189,7 +191,7 @@ export const postsController = {
       }
       // 4. if liked, unlike it (remove user id from liked_by array and decrease likes by 1)
       else{
-        const UserIndex = posts[postIndex].liked_by.findIndex(user=>user.id === userId)
+        const UserIndex = posts[postIndex].liked_by.findIndex(user=>user === userId)
          posts[postIndex].liked_by.splice(UserIndex,1)
          posts[postIndex].likes -= 1
          await db.write(postfile,posts)

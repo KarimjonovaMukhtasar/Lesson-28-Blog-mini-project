@@ -2,12 +2,12 @@ import express from "express"
 import morgan from "morgan"
 import 'dotenv/config'
 
-import { postsRoutes, userRoutes, commentsRoutes, MiddleWare} from "./routes/index.js"
+import { postsRoutes, userRoutes, commentsRoutes} from "./src/routes/index.js"
+import MiddleWare from "./src/middleware/custom.middleware.js"
 
 const app = express()
 // const PORT = process.env.PORT || 3000
-const PORT = process.argv[2].split("=")[1] || 3000
-
+const PORT = process.env.PORT || 3000
 app.use(express.json())
 app.use(morgan('tiny'))
 

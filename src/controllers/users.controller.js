@@ -41,7 +41,6 @@ export const usersController = {
       if (userIndex === -1) {
         return res.status(404).send({ message: `#${id} User not found!` })
       }
-
       // const updatedUser = { ...users[userIndex], ...req.body }
       // const updatedUser = Object.assign(users[userIndex], req.body)
       users.splice(userIndex, 1, { ...users[userIndex], ...req.body })

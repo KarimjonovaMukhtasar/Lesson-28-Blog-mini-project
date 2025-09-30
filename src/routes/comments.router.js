@@ -11,6 +11,4 @@ router.post("/", commentsController.create)
 router.put("/:id", commentsController.update)
 router.delete("/:id", commentsController.delete)
 
-
-
-export { router as  commentRoutes }
+export { router as  commentsRoutes }
